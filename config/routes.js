@@ -29,13 +29,12 @@ export default [
     name: 'admin',
     icon: 'crown',
     access: 'canAdmin',
-    component: './Admin',
     routes: [
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
+        path: '/admin/encryption',
+        name: 'encryption',
         icon: 'smile',
-        component: './Welcome',
+        component: './Encryption',
       },
       {
         component: './404',
