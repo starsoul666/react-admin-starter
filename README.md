@@ -1,8 +1,9 @@
 # 项目使用文档
 
-项目使用create-umi脚手架创建完成
+项目使用 create-umi 脚手架创建完成
 
 ## 使用前需要的软件
+
 1. node
 2. yarn
 
@@ -20,3 +21,8 @@ yarn build
 
 ```
 
+## 修改后台代理
+
+```bash
+修改`config/proxy.js`文件dev下的target
+```
